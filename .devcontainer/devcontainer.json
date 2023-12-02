@@ -1,0 +1,5 @@
+{
+    "name": "react-basic-template",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bookworm",
+    "remoteUser": "node"
+}
