@@ -1,5 +1,3 @@
-// ESLint v9+ 用の設定ファイル
-/** @type {import('eslint').Linter.FlatConfig} */
 import js from '@eslint/js';
 import tseslint from '@typescript-eslint/eslint-plugin';
 import tsParser from '@typescript-eslint/parser';
@@ -23,7 +21,7 @@ export default [
     languageOptions: {
       parser: tsParser,
       parserOptions: {
-        ecmaVersion: 2020,
+        ecmaVersion: 'latest',
         sourceType: 'module',
       },
     },
